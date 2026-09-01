@@ -1,0 +1,526 @@
+{
+  "gpu": "Tesla V100-SXM2-16GB",
+  "shapes_source": "d:\\VORTEX_FLAME\\fp4研究\\ltx23_22b_linear_shapes.json",
+  "sizes_tested": [
+    {
+      "M_out": 4096,
+      "K_in": 4096,
+      "count": 421
+    },
+    {
+      "M_out": 16384,
+      "K_in": 4096,
+      "count": 57
+    },
+    {
+      "M_out": 4096,
+      "K_in": 16384,
+      "count": 56
+    },
+    {
+      "M_out": 2048,
+      "K_in": 2048,
+      "count": 613
+    },
+    {
+      "M_out": 2048,
+      "K_in": 4096,
+      "count": 144
+    },
+    {
+      "M_out": 8192,
+      "K_in": 2048,
+      "count": 57
+    },
+    {
+      "M_out": 2048,
+      "K_in": 8192,
+      "count": 56
+    },
+    {
+      "M_out": 4096,
+      "K_in": 188160,
+      "count": 1
+    },
+    {
+      "M_out": 4096,
+      "K_in": 2048,
+      "count": 49
+    }
+  ],
+  "coverage_params": 0.9708252646539131,
+  "results": [
+    {
+      "M_out": 4096,
+      "K_in": 4096,
+      "T_tokens": 512,
+      "layer_count": 421,
+      "nvfp4_ms": 6.494700000075682,
+      "fp16_ms": 6.0570000005100155,
+      "ratio": 1.072263496702792,
+      "nvfp4_tflops": 2.6452136640337205,
+      "fp16_tflops": 2.8363660529228016,
+      "nvfp4_weight_bytes": 9437184,
+      "fp16_weight_bytes": 33554432
+    },
+    {
+      "M_out": 4096,
+      "K_in": 4096,
+      "T_tokens": 1536,
+      "layer_count": 421,
+      "nvfp4_ms": 17.981199999667297,
+      "fp16_ms": 18.338300000323215,
+      "ratio": 0.9805270935337722,
+      "nvfp4_tflops": 2.8663052272903715,
+      "fp16_tflops": 2.8104899336956866,
+      "nvfp4_weight_bytes": 9437184,
+      "fp16_weight_bytes": 33554432
+    },
+    {
+      "M_out": 4096,
+      "K_in": 4096,
+      "T_tokens": 4992,
+      "layer_count": 421,
+      "nvfp4_ms": 58.157099999334605,
+      "fp16_ms": 61.08860000040295,
+      "ratio": 0.952012323067659,
+      "nvfp4_tflops": 2.880193898009297,
+      "fp16_tflops": 2.7419800837291266,
+      "nvfp4_weight_bytes": 9437184,
+      "fp16_weight_bytes": 33554432
+    },
+    {
+      "M_out": 4096,
+      "K_in": 4096,
+      "T_tokens": 14080,
+      "layer_count": 421,
+      "nvfp4_ms": 164.17739999997139,
+      "fp16_ms": 172.2130999996807,
+      "ratio": 0.9533386252281376,
+      "nvfp4_tflops": 2.8776579636422697,
+      "fp16_tflops": 2.743382486935523,
+      "nvfp4_weight_bytes": 9437184,
+      "fp16_weight_bytes": 33554432
+    },
+    {
+      "M_out": 16384,
+      "K_in": 4096,
+      "T_tokens": 512,
+      "layer_count": 57,
+      "nvfp4_ms": 22.0657999998366,
+      "fp16_ms": 22.527099999933853,
+      "ratio": 0.9795224418545393,
+      "nvfp4_tflops": 3.1142979967419664,
+      "fp16_tflops": 3.0505247784313907,
+      "nvfp4_weight_bytes": 37748736,
+      "fp16_weight_bytes": 134217728
+    },
+    {
+      "M_out": 16384,
+      "K_in": 4096,
+      "T_tokens": 1536,
+      "layer_count": 57,
+      "nvfp4_ms": 71.38779999968392,
+      "fp16_ms": 73.0346999998801,
+      "ratio": 0.97745044478585,
+      "nvfp4_tflops": 2.887866417075646,
+      "fp16_tflops": 2.822746313852709,
+      "nvfp4_weight_bytes": 37748736,
+      "fp16_weight_bytes": 134217728
+    },
+    {
+      "M_out": 16384,
+      "K_in": 4096,
+      "T_tokens": 4992,
+      "layer_count": 57,
+      "nvfp4_ms": 232.36700000052224,
+      "fp16_ms": 244.01149999994232,
+      "ratio": 0.9522788884973747,
+      "nvfp4_tflops": 2.883433956519188,
+      "fp16_tflops": 2.7458332831696803,
+      "nvfp4_weight_bytes": 37748736,
+      "fp16_weight_bytes": 134217728
+    },
+    {
+      "M_out": 16384,
+      "K_in": 4096,
+      "T_tokens": 14080,
+      "layer_count": 57,
+      "nvfp4_ms": 656.355999999505,
+      "fp16_ms": 688.5889999994106,
+      "ratio": 0.9531897837462795,
+      "nvfp4_tflops": 2.8792082501590985,
+      "fp16_tflops": 2.744431889329655,
+      "nvfp4_weight_bytes": 37748736,
+      "fp16_weight_bytes": 134217728
+    },
+    {
+      "M_out": 4096,
+      "K_in": 16384,
+      "T_tokens": 512,
+      "layer_count": 56,
+      "nvfp4_ms": 24.09040000020468,
+      "fp16_ms": 24.249799999779498,
+      "ratio": 0.9934267499288132,
+      "nvfp4_tflops": 2.8525668621283224,
+      "fp16_tflops": 2.833816226798772,
+      "nvfp4_weight_bytes": 37748736,
+      "fp16_weight_bytes": 134217728
+    },
+    {
+      "M_out": 4096,
+      "K_in": 16384,
+      "T_tokens": 1536,
+      "layer_count": 56,
+      "nvfp4_ms": 71.48890000007668,
+      "fp16_ms": 72.16129999960685,
+      "ratio": 0.9906819860571549,
+      "nvfp4_tflops": 2.883782380310494,
+      "fp16_tflops": 2.8569112558826295,
+      "nvfp4_weight_bytes": 37748736,
+      "fp16_weight_bytes": 134217728
+    },
+    {
+      "M_out": 4096,
+      "K_in": 16384,
+      "T_tokens": 4992,
+      "layer_count": 56,
+      "nvfp4_ms": 232.86490000009508,
+      "fp16_ms": 234.22840000057477,
+      "ratio": 0.9941787588504368,
+      "nvfp4_tflops": 2.8772687432744326,
+      "fp16_tflops": 2.8605194680677313,
+      "nvfp4_weight_bytes": 37748736,
+      "fp16_weight_bytes": 134217728
+    },
+    {
+      "M_out": 4096,
+      "K_in": 16384,
+      "T_tokens": 14080,
+      "layer_count": 56,
+      "nvfp4_ms": 657.6154000003953,
+      "fp16_ms": 659.3014000000039,
+      "ratio": 0.9974427477332695,
+      "nvfp4_tflops": 2.8736942751627534,
+      "fp16_tflops": 2.8663455139637026,
+      "nvfp4_weight_bytes": 37748736,
+      "fp16_weight_bytes": 134217728
+    },
+    {
+      "M_out": 2048,
+      "K_in": 2048,
+      "T_tokens": 512,
+      "layer_count": 613,
+      "nvfp4_ms": 1.3963000001240289,
+      "fp16_ms": 1.4212000005500158,
+      "ratio": 0.98247959441574,
+      "nvfp4_tflops": 3.075963113670767,
+      "fp16_tflops": 3.0220709923570315,
+      "nvfp4_weight_bytes": 2359296,
+      "fp16_weight_bytes": 8388608
+    },
+    {
+      "M_out": 2048,
+      "K_in": 2048,
+      "T_tokens": 1536,
+      "layer_count": 613,
+      "nvfp4_ms": 4.3319000005794805,
+      "fp16_ms": 4.573700000037206,
+      "ratio": 0.9471325186488491,
+      "nvfp4_tflops": 2.974422744356144,
+      "fp16_tflops": 2.8171725053884566,
+      "nvfp4_weight_bytes": 2359296,
+      "fp16_weight_bytes": 8388608
+    },
+    {
+      "M_out": 2048,
+      "K_in": 2048,
+      "T_tokens": 4992,
+      "layer_count": 613,
+      "nvfp4_ms": 14.507900000353402,
+      "fp16_ms": 15.323200000239012,
+      "ratio": 0.9467930980557003,
+      "nvfp4_tflops": 2.886422648004186,
+      "fp16_tflops": 2.7328450412020215,
+      "nvfp4_weight_bytes": 2359296,
+      "fp16_weight_bytes": 8388608
+    },
+    {
+      "M_out": 2048,
+      "K_in": 2048,
+      "T_tokens": 14080,
+      "layer_count": 613,
+      "nvfp4_ms": 40.72009999981674,
+      "fp16_ms": 43.073600000752776,
+      "ratio": 0.9453609635392698,
+      "nvfp4_tflops": 2.9005724602967957,
+      "fp16_tflops": 2.7420879758816494,
+      "nvfp4_weight_bytes": 2359296,
+      "fp16_weight_bytes": 8388608
+    },
+    {
+      "M_out": 2048,
+      "K_in": 4096,
+      "T_tokens": 512,
+      "layer_count": 144,
+      "nvfp4_ms": 2.7832000005219015,
+      "fp16_ms": 2.835100000083912,
+      "ratio": 0.9816937675706414,
+      "nvfp4_tflops": 3.0863518936437293,
+      "fp16_tflops": 3.0298524185198965,
+      "nvfp4_weight_bytes": 4718592,
+      "fp16_weight_bytes": 16777216
+    },
+    {
+      "M_out": 2048,
+      "K_in": 4096,
+      "T_tokens": 1536,
+      "layer_count": 144,
+      "nvfp4_ms": 9.056899999450252,
+      "fp16_ms": 9.278399999857356,
+      "ratio": 0.9761273494987811,
+      "nvfp4_tflops": 2.845322768007178,
+      "fp16_tflops": 2.777397372003382,
+      "nvfp4_weight_bytes": 4718592,
+      "fp16_weight_bytes": 16777216
+    },
+    {
+      "M_out": 2048,
+      "K_in": 4096,
+      "T_tokens": 4992,
+      "layer_count": 144,
+      "nvfp4_ms": 29.10599999995611,
+      "fp16_ms": 30.56899999955931,
+      "ratio": 0.9521410579467994,
+      "nvfp4_tflops": 2.87747757411277,
+      "fp16_tflops": 2.7397645416339227,
+      "nvfp4_weight_bytes": 4718592,
+      "fp16_weight_bytes": 16777216
+    },
+    {
+      "M_out": 2048,
+      "K_in": 4096,
+      "T_tokens": 14080,
+      "layer_count": 144,
+      "nvfp4_ms": 82.10890000009385,
+      "fp16_ms": 86.16350000011153,
+      "ratio": 0.9529429514816318,
+      "nvfp4_tflops": 2.876950017351712,
+      "fp16_tflops": 2.741569240800272,
+      "nvfp4_weight_bytes": 4718592,
+      "fp16_weight_bytes": 16777216
+    },
+    {
+      "M_out": 8192,
+      "K_in": 2048,
+      "T_tokens": 512,
+      "layer_count": 57,
+      "nvfp4_ms": 6.487699999524921,
+      "fp16_ms": 6.458300000304007,
+      "ratio": 1.0045522814393153,
+      "nvfp4_tflops": 2.6480677567177953,
+      "fp16_tflops": 2.660122506416751,
+      "nvfp4_weight_bytes": 9437184,
+      "fp16_weight_bytes": 33554432
+    },
+    {
+      "M_out": 8192,
+      "K_in": 2048,
+      "T_tokens": 1536,
+      "layer_count": 57,
+      "nvfp4_ms": 18.133100000341074,
+      "fp16_ms": 18.098200000167708,
+      "ratio": 1.0019283685766012,
+      "nvfp4_tflops": 2.8422943429987466,
+      "fp16_tflops": 2.8477753340952363,
+      "nvfp4_weight_bytes": 9437184,
+      "fp16_weight_bytes": 33554432
+    },
+    {
+      "M_out": 8192,
+      "K_in": 2048,
+      "T_tokens": 4992,
+      "layer_count": 57,
+      "nvfp4_ms": 57.80179999965185,
+      "fp16_ms": 61.16990000009537,
+      "ratio": 0.9449386054180525,
+      "nvfp4_tflops": 2.8978980679668953,
+      "fp16_tflops": 2.738335758988307,
+      "nvfp4_weight_bytes": 9437184,
+      "fp16_weight_bytes": 33554432
+    },
+    {
+      "M_out": 8192,
+      "K_in": 2048,
+      "T_tokens": 14080,
+      "layer_count": 57,
+      "nvfp4_ms": 162.59080000054382,
+      "fp16_ms": 172.28870000053575,
+      "ratio": 0.9437113403260818,
+      "nvfp4_tflops": 2.9057388398262374,
+      "fp16_tflops": 2.7421786951699727,
+      "nvfp4_weight_bytes": 9437184,
+      "fp16_weight_bytes": 33554432
+    },
+    {
+      "M_out": 2048,
+      "K_in": 8192,
+      "T_tokens": 512,
+      "layer_count": 56,
+      "nvfp4_ms": 6.961899999623711,
+      "fp16_ms": 6.43450000006851,
+      "ratio": 1.0819644105291142,
+      "nvfp4_tflops": 2.467698356041967,
+      "fp16_tflops": 2.6699617971586105,
+      "nvfp4_weight_bytes": 9437184,
+      "fp16_weight_bytes": 33554432
+    },
+    {
+      "M_out": 2048,
+      "K_in": 8192,
+      "T_tokens": 1536,
+      "layer_count": 56,
+      "nvfp4_ms": 18.11349999934464,
+      "fp16_ms": 18.533800000113843,
+      "ratio": 0.9773225134205279,
+      "nvfp4_tflops": 2.8453698928348876,
+      "fp16_tflops": 2.7808440552764906,
+      "nvfp4_weight_bytes": 9437184,
+      "fp16_weight_bytes": 33554432
+    },
+    {
+      "M_out": 2048,
+      "K_in": 8192,
+      "T_tokens": 4992,
+      "layer_count": 56,
+      "nvfp4_ms": 58.158399999229005,
+      "fp16_ms": 59.82450000010431,
+      "ratio": 0.9721502060046904,
+      "nvfp4_tflops": 2.880129517769068,
+      "fp16_tflops": 2.7999185040193892,
+      "nvfp4_weight_bytes": 9437184,
+      "fp16_weight_bytes": 33554432
+    },
+    {
+      "M_out": 2048,
+      "K_in": 8192,
+      "T_tokens": 14080,
+      "layer_count": 56,
+      "nvfp4_ms": 164.21469999932015,
+      "fp16_ms": 168.54199999943376,
+      "ratio": 0.9743250940410809,
+      "nvfp4_tflops": 2.8770043276390966,
+      "fp16_tflops": 2.8031375120835595,
+      "nvfp4_weight_bytes": 9437184,
+      "fp16_weight_bytes": 33554432
+    },
+    {
+      "M_out": 4096,
+      "K_in": 188160,
+      "T_tokens": 512,
+      "layer_count": 1,
+      "nvfp4_ms": 275.6822999999713,
+      "fp16_ms": 278.2674000000043,
+      "ratio": 0.9907100148992195,
+      "nvfp4_tflops": 2.862716397244517,
+      "fp16_tflops": 2.8361218045663557,
+      "nvfp4_weight_bytes": 433520640,
+      "fp16_weight_bytes": 1541406720
+    },
+    {
+      "M_out": 4096,
+      "K_in": 188160,
+      "T_tokens": 1536,
+      "layer_count": 1,
+      "nvfp4_ms": 818.5618999996223,
+      "fp16_ms": 829.2398000003232,
+      "ratio": 0.9871232663932716,
+      "nvfp4_tflops": 2.892390571710084,
+      "fp16_tflops": 2.8551460288315607,
+      "nvfp4_weight_bytes": 433520640,
+      "fp16_weight_bytes": 1541406720
+    },
+    {
+      "M_out": 4096,
+      "K_in": 2048,
+      "T_tokens": 512,
+      "layer_count": 49,
+      "nvfp4_ms": 2.8004999994664104,
+      "fp16_ms": 2.8224999996382394,
+      "ratio": 0.9922054915235965,
+      "nvfp4_tflops": 3.067286053789206,
+      "fp16_tflops": 3.0433780666433923,
+      "nvfp4_weight_bytes": 4718592,
+      "fp16_weight_bytes": 16777216
+    },
+    {
+      "M_out": 4096,
+      "K_in": 2048,
+      "T_tokens": 1536,
+      "layer_count": 49,
+      "nvfp4_ms": 8.589800000663672,
+      "fp16_ms": 9.059200000592682,
+      "ratio": 0.9481852702337623,
+      "nvfp4_tflops": 3.000047006217718,
+      "fp16_tflops": 2.8446003813045366,
+      "nvfp4_weight_bytes": 4718592,
+      "fp16_weight_bytes": 16777216
+    },
+    {
+      "M_out": 4096,
+      "K_in": 2048,
+      "T_tokens": 4992,
+      "layer_count": 49,
+      "nvfp4_ms": 28.96969999983412,
+      "fp16_ms": 30.575799999496667,
+      "ratio": 0.947471529782083,
+      "nvfp4_tflops": 2.8910158639019237,
+      "fp16_tflops": 2.7391552231954264,
+      "nvfp4_weight_bytes": 4718592,
+      "fp16_weight_bytes": 16777216
+    },
+    {
+      "M_out": 4096,
+      "K_in": 2048,
+      "T_tokens": 14080,
+      "layer_count": 49,
+      "nvfp4_ms": 81.28560000022844,
+      "fp16_ms": 86.18529999966995,
+      "ratio": 0.9431492377533028,
+      "nvfp4_tflops": 2.906089163140041,
+      "fp16_tflops": 2.7408757790586638,
+      "nvfp4_weight_bytes": 4718592,
+      "fp16_weight_bytes": 16777216
+    }
+  ],
+  "forward_estimate": [
+    {
+      "T": 512,
+      "nvfp4_total_ms": 7770.3665001108675,
+      "fp16_total_ms": 7616.505500551284,
+      "speedup": 0.9801990035402592
+    },
+    {
+      "T": 1536,
+      "nvfp4_total_ms": 22889.62130013715,
+      "fp16_total_ms": 23406.83350015479,
+      "speedup": 1.0225959264784577
+    },
+    {
+      "T": 4992,
+      "nvfp4_total_ms": 74513.08992489384,
+      "fp16_total_ms": 77586.98175026824,
+      "speedup": 1.0412530446458839
+    },
+    {
+      "T": 14080,
+      "nvfp4_total_ms": 210170.49914988637,
+      "fp16_total_ms": 218618.06840029248,
+      "speedup": 1.0401938867946523
+    }
+  ],
+  "weight_mem_gb": {
+    "fp16": 41.256378293037415,
+    "nvfp4": 5.801678197458386
+  }
+}
