@@ -1,0 +1,24 @@
+# Build artifacts
+*.dll
+*.lib
+*.exp
+*.obj
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Model artifacts (generate with pipeline/_qwen38_nvfp4_pack.py)
+*.bin
+*.npy
+*.npz
+model/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
